@@ -10,7 +10,7 @@ const port = 8000;
 //template engine - chamando para criar um html dinamico
 app.engine('handlebars', exphbs.engine());
 app.set('view engine', 'handlebars');
-app.use(express.static('public'));
+app.use(express.static('public'));  //onde fica o diretorio publico - que é de onde vem o css - é do public que vai sair os arquivos estáticos, os assets
 
 app.listen(port, () => {
     console.log(`projeto rodando na porta: ${port}`);
