@@ -1,3 +1,20 @@
-h1{
-    color :blue;
+html, body {
+    height: 100%;
+}
+
+#main-container {
+    padding: 30px 0;
+    max-width: 500px; /* largura máxima */
+    min-height: 375px; /* altura minima - fazendo com que o rodpé fique posicionado no fundo da pagina */
+}
+
+footer{
+    height: 300px; /* altura */ 
+    width: 100%; /* largura de 100% da página */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
 }
